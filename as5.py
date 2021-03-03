@@ -1,6 +1,6 @@
 import math
 num1=int(input("enter no. :"))
-print("square and cube is %d and %d" %(pow(num1,2),pow(num1,3)))
+print("square and cube of %d is %d and %d" %(num1,pow(num1,2),pow(num1,3)))
 power=int(input("power:"))
 print("%d ^ %d is %d " %(num1,power,pow(num1,power)))
 print("sq root of %d is %d" %(num1,math.sqrt(num1)))
